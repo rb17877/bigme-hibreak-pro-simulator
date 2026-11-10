@@ -1,16 +1,28 @@
-# bigme-hibreak-pro-simulator
-A simulator for the Bigme Hibreak Pro e-ink smartphone.
-# Bigme Hibreak Pro Simulator
+# HiBreak Pro — E‑ink phone simulator
 
-A software simulator designed to mimic the interface, features, and E-Ink display behavior of the Bigme Hibreak Pro smartphone.
+A small, interactive browser-based phone simulator inspired by the Bigme HiBreak Pro. It is a visual demo, not an Android emulator or an official Bigme product.
+
+## Try it
+
+Open `index.html` in a modern browser, or publish the repository with GitHub Pages (Settings → Pages → deploy from the `main` branch, root folder).
 
 ## Features
-- E-Ink display mode simulation (refresh rates, contrast adjustments)
-- Custom UI layout replicating the device experience
-- Lightweight and cross-platform
 
-## Getting Started
-Clone the repository and run the main script according to your development environment.
+- Responsive phone frame and e‑ink-inspired monochrome interface
+- Home screen with clock, weather card, reading widget, app grid, and dock
+- Quick settings panel with Wi‑Fi, Bluetooth, DND, front-light toggles, and brightness
+- Interactive Books, Messages, Browser, Settings, Camera, Phone, and Notes screens
+- Navigation buttons, keyboard shortcuts, and touch gestures
+- No build step or external JavaScript dependencies
 
-```bash
-git clone [https://github.com/rb17877/bigme-hibreak-pro-simulator.git](https://github.com/rb17877/bigme-hibreak-pro-simulator.git)
+Weather, calls, browsing, and other device behavior are illustrative UI simulations only; no real phone services or hardware are accessed.
+
+## Controls
+
+- Tap an app to open it; use the bottom-center button to return home.
+- Tap the status bar or swipe down from the top edge to open quick settings.
+- Swipe left/right on the home screen (or use arrow keys) to switch app pages.
+
+## License
+
+MIT. See [LICENSE](LICENSE).

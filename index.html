@@ -1,1 +1,42 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#e9e7df">
+  <meta name="description" content="Bigme HiBreak Pro esintili, tarayıcıda çalışan etkileşimli e-ink telefon simülatörü.">
+  <title>HiBreak Pro — E‑ink Simülatörü</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="stage">
+    <header class="intro">
+      <div class="eyebrow"><span class="live-dot"></span> TARAYICI SİMÜLATÖRÜ</div>
+      <h1>HiBreak <span>Pro</span></h1>
+      <p>E‑ink deneyimine göz at. Ekrana dokun, uygulamaları aç ve ayarları keşfet.</p>
+    </header>
 
+    <section class="device" aria-label="Bigme HiBreak Pro telefon simülatörü">
+      <div class="side-button side-button-left"></div><div class="side-button side-button-right"></div>
+      <div class="phone-frame">
+        <div class="screen" id="screen">
+          <div class="status-bar" id="statusBar">
+            <button class="status-left" id="openQuick" aria-label="Hızlı ayarları aç"><span id="statusTime">09:41</span><span class="status-date" id="statusDate">Pzt, 10 Kas</span></button>
+            <div class="status-icons"><span title="Wi-Fi">⌁</span><span title="Sinyal">▮</span><span class="battery"><span id="batteryLevel">82</span><span class="battery-shape"><i></i></span></span></div>
+          </div>
+          <div class="screen-content" id="screenContent"></div>
+          <nav class="navigation" aria-label="Telefon gezinme">
+            <button id="navBack" aria-label="Geri"><span class="nav-back-icon"></span></button>
+            <button id="navHome" aria-label="Ana ekran"><span class="nav-home-icon"></span></button>
+            <button id="navRecent" aria-label="Son uygulamalar"><span class="nav-recent-icon"></span></button>
+          </nav>
+          <div class="quick-panel" id="quickPanel" aria-hidden="true"></div>
+          <div class="toast" id="toast" role="status"></div>
+        </div>
+      </div>
+    </section>
+    <footer class="hint"><span class="hint-icon">↕</span> Bildirim ve hızlı ayarlar için üst çubuğa dokun</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

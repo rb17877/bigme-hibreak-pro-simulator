@@ -1,1 +1,9 @@
-
+{
+  "name": "hibreak-pro-simulator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A browser-based e-ink phone simulator inspired by the Bigme HiBreak Pro.",
+  "scripts": {
+    "start": "python3 -m http.server 8000"
+  }
+}
