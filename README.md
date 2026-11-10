@@ -1,3 +1,5 @@
+link: https://rb17877.github.io/bigme-hibreak-pro-simulator/
+
 # HiBreak Pro — E‑ink phone simulator
 
 A small, interactive browser-based phone simulator inspired by the Bigme HiBreak Pro. It is a visual demo, not an Android emulator or an official Bigme product.
